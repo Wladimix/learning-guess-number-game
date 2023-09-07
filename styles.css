@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: bisque;
+}
+
+
+/* ------------------------------------------------------------ */
+
+
+div.container {
+    border: 1px solid black;
+    width: 700px;
+    height: 780px;
+    margin: 50px auto;
+    border-radius: 20%;
+    background: radial-gradient(orange 250px, blue 650px);
+}
+div.buttonWithText {
+    width: 600px;
+    height: 500px;
+    margin: 40px auto;
+    font-size: 80px;
+    color: slateblue;
+    text-align: center;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    cursor: pointer;
+    user-select: none;
+}
+div.input {
+    width: 600px;
+    height: 150px;
+    margin: 40px auto;
+}
+div.input input {
+    width: 600px;
+    height: 150px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    font-size: 160px;
+    text-align: center;
+}
+
+
+/* Animation */
+/* ------------------------------------------------------------ */
+
+
+.startOfAnimation {
+transform: scale(0);
+}
